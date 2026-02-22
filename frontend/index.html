@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Study Buddy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>AI-Powered Study Buddy</h1>
+
+<input type="file" id="pdfUpload">
+<button onclick="uploadPDF()">Upload PDF</button>
+
+<h2>Ask Question</h2>
+<input type="text" id="question">
+<button onclick="askQuestion()">Ask</button>
+
+<h2>Summarize</h2>
+<textarea id="text"></textarea>
+<button onclick="summarize()">Summarize</button>
+
+<h2>Generate Quiz</h2>
+<button onclick="generateQuiz()">Generate Quiz</button>
+
+<h2>Generate Flashcards</h2>
+<button onclick="generateFlashcards()">Generate Flashcards</button>
+
+<div id="output"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
